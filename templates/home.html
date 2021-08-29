@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/fractals">
+    <label for="type">Type:</label><br>
+    <select id="type" name="type">
+        <option value="Julia">Julia</option>
+        <option value="Mandelbrot">Mandelbrot</option>
+    </select><br>
+
+    <label for="resolution_x">Resolution x:</label><br>
+    <input type="number" id="resolution_x" name="resolution_x" value="480"><br>
+    <label for="resolution_y">Resolution y:</label><br>
+    <input type="number" id="resolution_y" name="resolution_y" value="480"><br>
+    <label for="iterations">Iterations:</label><br>
+    <input type="number" id="iterations" name="iterations" value="10"><br>
+
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
